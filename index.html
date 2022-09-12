@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MY FIRST WEBSITE</title>
+
+	<!-- Meta tags  -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Style sheets -->
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<script src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+       <div class="sidebar">
+        <h3>Branding</h3>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="home()">Home</a></li>
+                <li><a href="#myself" onclick="myself()">Myself</a></li>
+                <li><a href="#skills" onclick="skills()">Skills</a></li>
+                <li><a href="#experiences" onclick="exp()">Experiences</a></li>
+                <li><a href="#contact" onclick="contact()">Contact Me</a></li>
+                <div class="icons">
+                    <a href="https://instagram.com/vaibhavvv._23"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/Vaibhav_Chopra"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://facebook.com/Vaibhav_Chopra"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/Grameco"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/Vaibhav26289"><i class="fab fa-twitter"></i></a>
+                    <a href="https://wa.link/tjx24p"><i class="fab fa-whatsapp"></i></a>
+					</div>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <div id="home" class="info">
+            <nav>
+                <ul>
+                    <li><h1>Nice to see you...</h1></li>
+                    <li><h2>Hi I am<h2></li>
+                    <li><h3>Vaibhav Chopra</h3></li>
+                    <li><h4>Developer, C/C++, GSOC, Influencer</h4></li>
+                    <li><a href="./cv.txt"><button>Download CV</a></button>
+                    <a onclick="contact()" href="#"><button>Contact Me</a></button></li>
+                    
+                </ul>
+            </nav>
+            <img src="./images/div.png" alt="Vaibhav Chopra">
+        </div>
+
+        <div class="info" id="myself" style="display: none;">
+            <nav>
+              <ul>
+                <li>
+                  <h2>YO WHAT'S UP!!!</h2>
+                  <h5>Welcome to my first website. I am a Btech CSE student in Guru
+                  Nanak Dev University, Amritsar. I did my schooling from DAV
+                  Public School, Lawrence Road, Amritsar and got 96% in +2 CBSE
+                  Board and cleared JEE mains with 90 %tile. Along with studies I
+                  have also went to many chess tournaments on District level and
+                  also take part in extra ciricular activities.</h5>
+                </li>
+                <li><h5>
+                  It's just a starting to my new collage life and here I am very
+                  exciter to face nw challenge and have fun. I like to interact
+                  with people and try to understand their point of view over some
+                  common issues and new ideas. I am learning from my seniors, my
+                  past mistakes and stepping ahead towards the world of coding
+                  with full enthusiasm and excitement.</h5>
+                </li>
+              </ul>
+            </nav>
+            <img src="images/div.png" alt="Vaibhav Chopra" />
+          </div>
+
+        <div class="info" id="skills" style="display: none;">
+        <nav>
+            <ul>
+            <li><h2>SKILLS...</h2></li>
+            <li><h4>So its the time to showwww !!!</h4></li>
+            <li><h5>I have my experties in C/C++ along with HTML, CSS, JavaScript.</h5></li>
+            <li><h5>I am a moivational speaker and influencer.</h5></li>
+            <li class="management"><h5>Management and analytical skills, leadership quality</h5></li>
+            
+            </ul>
+            <div class="skillcontainer">
+            C/C++:
+            <div class="skill1"></div>
+            HTML:
+            <div class="skill2"></div>
+            CSS:
+            <div class="skill3"></div>
+            JS:
+            <div class="skill4"></div>
+            Motivational Speaking:
+            <div class="skill5"></div>
+            Management:
+            <div class="skill6"></div>
+            </div>
+        </nav>
+        <img src="images/div.png" alt="Vaibhav Chopra" />
+        </div>
+
+        <div class="info" id="exp" style="display: none;">
+            <nav>
+                <ul>
+                    <li>
+                        <h1>My Experience...</h1>
+                    </li>
+                    <li>
+                        <h2>Hi I am<h2>
+                    </li>
+                    <li>
+                        <h3>Vaibhav Chopra</h3>
+                    </li>
+                    <li>
+                        <h4>Developer, C/C++, GSOC, Influencer</h4>
+                    </li>
+                    <li>
+                        <h5>I have worked on c and c++ programs along with front end and a bit back end web development.</h5>
+                    </li>
+                    <li>
+                        <h5>This is my 1st year in CSE and I'm improving my skills everyday and also learning new ones.</h5>
+                    </li>
+                    <li>
+                        <h5>I also took part as an active participant in WebnTech copowered by TechSetCo 
+                            which was an exciting boot camp for me.</h5>
+                    </li>
+                </ul>
+            </nav>
+
+            <img src="images/div.png" alt="Vaibhav Chopra">
+        </div>
+
+        <div class="contactpage info" id="contact" style="display: none;">
+            <form style="margin-top: 20px;">
+                <h2>Get in Touch</h2>
+                <div>
+                    <label for="exampleInputEmail1" class="form-label">Name</label><br>
+                    <input type="name" class="form-control" placeholder="Your Input" id="exampleInputEmail1" aria-describedby="name">
+                    </div>
+                <div>
+                    <label for="exampleInputEmail2" class="form-label">Email address</label><br>
+                    <input type="email" class="form-control" placeholder=".....@gmail.com" id="exampleInputEmail2" aria-describedby="emailHelp">
+                </div>
+                <div>
+                    <label for="exampleInputPassword1" class="form-label">Subject</label><br>
+                    <input type="text" class="form-control" placeholder="Your Input" id="exampleInputPassword1">
+                    <div id="emailHelp" class="form-text">We'll never share your email and details with anyone else.</div>
+                </div>
+                <div>
+                    <label for="exampleInputEmail1" for="enquiry" class="form-label">Enquiry</label><br>
+                    <textarea class="txt-ar" id="enquiry" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="ifclient">
+                    <label class="form-check-label" for="ifclient">I want to work on a project</label>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
